@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="SkillPath AI - Learn, Build, Debug and Explore AI with your personal AI Mentor."
+  >
+
+  <title>SkillPath AI 🚀</title>
+
+  <link
+    rel="stylesheet"
+    href="/styles.css"
+  >
+</head>
+
+<body>
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="header">
+
+  <a
+    href="#home"
+    class="logo"
+  >
+    <span class="logo-icon">🚀</span>
+
+    <span>
+      SkillPath
+      <strong>AI</strong>
+    </span>
+  </a>
+
+  <nav id="mainNav">
+
+    <a href="#home">🏠 Home</a>
+
+    <a href="#skills">📚 Skills</a>
+
+    <a href="#roadmap">🗺️ Roadmap</a>
+
+    <a href="#prompts">💡 Prompts</a>
+
+    <a href="#mentor">🤖 AI Mentor</a>
+
+  </nav>
+
+  <a
+    href="#mentor"
+    class="header-button"
+  >
+    Start Learning 🚀
+  </a>
+
+  <button
+    id="menuToggle"
+    class="menu-toggle"
+    type="button"
+  >
+    ☰
+  </button>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<main id="home">
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <div class="hero-badge">
+      ✨ AI-POWERED LEARNING PLATFORM
+    </div>
+
+    <h1>
+      Learn.
+      <span>Build.</span>
+      Debug.
+      <strong>Grow. 🚀</strong>
+    </h1>
+
+    <p>
+      Your personal AI Mentor for learning technology,
+      building real projects, debugging code and
+      exploring Artificial Intelligence.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a
+        href="#mentor"
+        class="button primary"
+      >
+        🤖 Ask AI Mentor
+      </a>
+
+      <a
+        href="#skills"
+        class="button secondary"
+      >
+        📚 Explore Skills
+      </a>
+
+    </div>
+
+    <div class="hero-features">
+
+      <span>✅ Step-by-step learning</span>
+
+      <span>🛠️ Real projects</span>
+
+      <span>🐞 Real debugging</span>
+
+      <span>🤖 Gemini AI</span>
+
+    </div>
+
+  </div>
+
+
+  <!-- HERO MENTOR CARD -->
+
+  <div class="hero-mentor-card">
+
+    <div class="mentor-card-header">
+
+      <div class="mentor-title">
+
+        <div class="mentor-avatar">
+          🤖
+        </div>
+
+        <div>
+          <strong>SkillPath AI Mentor</strong>
+
+          <small>
+            🟢 Online
+          </small>
+        </div>
+
+      </div>
+
+      <span class="live-badge">
+        LIVE
+      </span>
+
+    </div>
+
+
+    <div class="demo-chat">
+
+      <div class="demo-message mentor">
+
+        <span>🤖</span>
+
+        <div>
+          <strong>AI Mentor</strong>
+
+          <p>
+            Hi! 👋 What would you like to
+            learn today?
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="demo-message student">
+
+        <div>
+
+          <strong>You</strong>
+
+          <p>
+            I want to learn Python 🐍
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <div class="demo-message mentor">
+
+        <span>🤖</span>
+
+        <div>
+
+          <strong>AI Mentor</strong>
+
+          <p>
+            Great choice! 🎯 We'll start
+            from the basics and build a
+            real project.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <a
+      href="#mentor"
+      class="demo-input"
+    >
+      Ask your Mentor anything...
+      <span>↑</span>
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section
+  id="skills"
+  class="section"
+>
+
+  <div class="section-title">
+
+    <div>
+
+      <span class="section-label">
+        📚 LEARNING LIBRARY
+      </span>
+
+      <h2>
+        Find your next skill
+      </h2>
+
+    </div>
+
+    <p>
+      Choose a technology and start learning
+      with a clear path.
+    </p>
+
+  </div>
+
+
+  <div
+    id="skillFilters"
+    class="filters"
+  >
+
+    <button
+      class="filter active"
+      data-filter="all"
+    >
+      🌎 All
+    </button>
+
+    <button
+      class="filter"
+      data-filter="Programming"
+    >
+      💻 Programming
+    </button>
+
+    <button
+      class="filter"
+      data-filter="Web Development"
+    >
+      🌐 Web
+    </button>
+
+    <button
+      class="filter"
+      data-filter="Backend"
+    >
+      ⚙️ Backend
+    </button>
+
+    <button
+      class="filter"
+      data-filter="Data"
+    >
+      📊 Data
+    </button>
+
+    <button
+      class="filter"
+      data-filter="AI"
+    >
+      🤖 AI
+    </button>
+
+    <button
+      class="filter"
+      data-filter="Tools"
+    >
+      🧰 Tools
+    </button>
+
+  </div>
+
+
+  <div class="special-filters">
+
+    <button
+      class="special active"
+      data-special="all"
+    >
+      🌎 All Skills
+    </button>
+
+    <button
+      class="special"
+      data-special="trending"
+    >
+      🔥 Trending
+    </button>
+
+    <button
+      class="special"
+      data-special="upcoming"
+    >
+      ✨ Upcoming
+    </button>
+
+  </div>
+
+
+  <div
+    id="skillsGrid"
+    class="skills-grid"
+  ></div>
+
+  <div
+    id="skillsStatus"
+    class="status"
+  ></div>
+
+</section>
+
+
+<!-- =====================================================
+     ROADMAP
+===================================================== -->
+
+<section
+  id="roadmap"
+  class="section colored-section"
+>
+
+  <div class="section-title">
+
+    <div>
+
+      <span class="section-label">
+        🗺️ LEARNING ROADMAP
+      </span>
+
+      <h2>
+        Your path from beginner to builder
+      </h2>
+
+    </div>
+
+    <p>
+      Follow a simple progression instead
+      of wondering what to learn next.
+    </p>
+
+  </div>
+
+
+  <div
+    id="roadmapGrid"
+    class="roadmap-grid"
+  ></div>
+
+</section>
+
+
+<!-- =====================================================
+     PROMPTS
+===================================================== -->
+
+<section
+  id="prompts"
+  class="section"
+>
+
+  <div class="section-title">
+
+    <div>
+
+      <span class="section-label">
+        💡 AI PROMPT LIBRARY
+      </span>
+
+      <h2>
+        Start with a useful question
+      </h2>
+
+    </div>
+
+    <p>
+      Copy a prompt or send it directly
+      to your AI Mentor.
+    </p>
+
+  </div>
+
+
+  <div
+    id="promptGrid"
+    class="prompt-grid"
+  ></div>
+
+</section>
+
+
+<!-- =====================================================
+     CAPABILITIES
+===================================================== -->
+
+<section
+  class="section colored-section"
+>
+
+  <div class="section-title">
+
+    <div>
+
+      <span class="section-label">
+        ✨ MENTOR MODES
+      </span>
+
+      <h2>
+        One Mentor. Four ways to learn.
+      </h2>
+
+    </div>
+
+  </div>
+
+
+  <div class="capability-grid">
+
+    <button
+      class="capability purple"
+      data-capability="learn"
+      type="button"
+    >
+
+      <span>📚</span>
+
+      <strong>
+        Learn a Skill
+      </strong>
+
+      <small>
+        Understand concepts step by step.
+      </small>
+
+    </button>
+
+
+    <button
+      class="capability blue"
+      data-capability="build"
+      type="button"
+    >
+
+      <span>🛠️</span>
+
+      <strong>
+        Build a Project
+      </strong>
+
+      <small>
+        Turn your idea into a real project.
+      </small>
+
+    </button>
+
+
+    <button
+      class="capability red"
+      data-capability="debug"
+      type="button"
+    >
+
+      <span>🐞</span>
+
+      <strong>
+        Debug Code
+      </strong>
+
+      <small>
+        Find errors and fix them.
+      </small>
+
+    </button>
+
+
+    <button
+      class="capability green"
+      data-capability="explore"
+      type="button"
+    >
+
+      <span>✨</span>
+
+      <strong>
+        Explore AI
+      </strong>
+
+      <small>
+        Understand AI and build AI apps.
+      </small>
+
+    </button>
+
+  </div>
+
+</section>
+
+
+<!-- =====================================================
+     AI MENTOR
+===================================================== -->
+
+<section
+  id="mentor"
+  class="section mentor-section"
+>
+
+  <div class="mentor-container">
+
+    <div class="mentor-header">
+
+      <div>
+
+        <span class="section-label">
+          🤖 YOUR AI MENTOR
+        </span>
+
+        <h2>
+          Ask. Learn. Build. Debug. 🚀
+        </h2>
+
+        <p>
+          Powered by Gemini AI through a secure
+          backend connection.
+        </p>
+
+      </div>
+
+      <button
+        id="clearChat"
+        class="clear-button"
+        type="button"
+      >
+        🗑️ Clear Chat
+      </button>
+
+    </div>
+
+
+    <div
+      id="chatMessages"
+      class="chat-messages"
+      aria-live="polite"
+    >
+
+      <div class="chat-empty">
+
+        <div class="large-robot">
+          🤖
+        </div>
+
+        <h3>
+          Hello! I'm your AI Mentor 👋
+        </h3>
+
+        <p>
+          Ask me about programming,
+          projects, debugging or AI.
+        </p>
+
+        <div class="quick-examples">
+
+          <span>🐍 Learn Python</span>
+
+          <span>🌐 Build a Website</span>
+
+          <span>🐞 Fix My Code</span>
+
+          <span>🤖 Learn AI</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div
+      id="chatError"
+      class="chat-error"
+      role="alert"
+      hidden
+    ></div>
+
+
+    <form
+      id="mentorForm"
+      class="mentor-form"
+    >
+
+      <textarea
+        id="mentorInput"
+        maxlength="12000"
+        rows="3"
+        placeholder="💬 Ask your AI Mentor anything..."
+        aria-label="Message to AI Mentor"
+      ></textarea>
+
+
+      <div class="form-footer">
+
+        <span id="charCount">
+          0 / 12000
+        </span>
+
+        <button
+          id="sendButton"
+          class="send-button"
+          type="submit"
+        >
+
+          <span id="sendLabel">
+            Send to Mentor
+          </span>
+
+          <span id="sendIcon">
+            🚀
+          </span>
+
+        </button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+  <div class="footer-main">
+
+    <div class="footer-brand">
+
+      <span>🚀</span>
+
+      <div>
+
+        <strong>
+          SkillPath AI
+        </strong>
+
+        <p>
+          Learn technology by doing.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-links">
+
+      <a href="#home">🏠 Home</a>
+
+      <a href="#skills">📚 Skills</a>
+
+      <a href="#roadmap">🗺️ Roadmap</a>
+
+      <a href="#mentor">🤖 AI Mentor</a>
+
+    </div>
+
+  </div>
+
+
+  <div class="developer-credit">
+
+    <span>
+      💜 Developed by
+    </span>
+
+    <strong>
+      L. Adithya
+    </strong>
+
+    <span>•</span>
+
+    <strong>
+      S. Vedhasree
+    </strong>
+
+    <span>•</span>
+
+    <strong>
+      M. Mahalakshmi
+    </strong>
+
+    <span>•</span>
+
+    <strong>
+      CH.Manasa
+    </strong>
+
+  </div>
+
+
+  <div class="copyright">
+
+    © 2026 SkillPath AI
+    • Built for learning 🚀
+
+  </div>
+
+</footer>
+
+
+<script
+  src="/app.js"
+  defer
+></script>
+
+</body>
+
+</html>
